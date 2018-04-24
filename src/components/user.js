@@ -1,9 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-/**
- * @return {null}
- */
 export function User({user}) {
   return !user.isAuthorized ? null : (
     <div>

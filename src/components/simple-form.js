@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 //comment from master
+//One text
 
 export class SimpleForm1 extends Component {
   state = {
